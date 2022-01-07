@@ -22,10 +22,10 @@ python app.py
 ```
 User input console 
 
-![This is an image](https://github.com/sarikamohan08/ML_cross_sell_prediction/blob/606d0d7028594bdfaa3cd438b15d87e3964ebb3a/Capture1%20.PNG)
+![This is an image](https://github.com/sarikamohan08/Health-insurance-cross-sell-prediction/blob/0af0ca32d6050fe29e2a1760eb3484b8ce1511cb/Capture1%20.PNG)
 
 
 output console
 
 
-![This is an image](https://github.com/sarikamohan08/ML_cross_sell_prediction/blob/606d0d7028594bdfaa3cd438b15d87e3964ebb3a/Capture%202%20.PNG)
+![This is an image](https://github.com/sarikamohan08/Health-insurance-cross-sell-prediction/blob/0af0ca32d6050fe29e2a1760eb3484b8ce1511cb/Readme.md#L31)
