@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script-->
+
+{% endblock %}
+
+{% block body %}
+<div class="content">
+  <h1 style="text-align: center" id="heading">Prediction for cross sell</h1>
+
+  <div class="form" typeof="table">
+
+    <form action="/predict" method="POST">
+
+      <!--form action="{{ url_for('predict')}}"method="post"-->
+      <div class='components'>
+        <div>Gender </div>
+        <select name="Gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+
+      <div class='components'>
+        <div>Age</div>
+        <input type="number" name="age" id="age" placeholder="Age">
+      </div>
+      <div class='components'>
+        <div>Previously insuranced ?</div>
+        <select name="PI" id="PI">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </div>
+      <div class='components radio-components'>
+        <div>
+          <div>Vehicle Age</div>
+          <select name="VA" id="VA">
+            <option value="less_than_2_years">
+              < 2 years</option>
+            <option value="1_2 years">1-2 years</option>
+            <option value="less_than_1_year">1< year</option>
+          </select>
+        </div>
+        <div>
+          <div>Is Vehicle Damaged ?</div>
+          <select name="IVD" id="IVD">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+      </div>
+      <div class='components'>
+        <div>Annual Premium</div>
+        <input type="number" name="AP" id="AP" placeholder="Annual Premium">
+      </div>
+      <div class='components'>
+        <div>Vintage</div>
+        <input type="number" name="Vin" id="Vin" placeholder="Vintage">
+      </div>
+
+      <div class='components'>
+        <p>Please select your Algorithm </p>
+          <input type="radio" id="radio" name="algo" value="logistic">
+          <label for="logistic">logistic</label>
+          <input type="radio" id="radio" name="algo" value="Decision">
+          <label for="Decision">Decision</label>
+      </div>
+      <div class="btn-div">
+        <button type="submit" id="btn_sbt" value="Predict">SUBMIT</button>
+      </div>
+    </form>
+  </div>
+</div>
+<!--script src="{{ url_for('static', filename='js/validation.js') }}"></script-->
+{% endblock %}

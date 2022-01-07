@@ -1,0 +1,130 @@
+2022-01-02 13:38:40,341  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-02 13:38:40,373  * Restarting with stat
+2022-01-02 13:38:41,054  * Debugger is active!
+2022-01-02 13:38:41,067  * Debugger PIN: 304-698-871
+2022-01-02 13:38:41,113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:01:59,419  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-02 14:01:59,465  * Restarting with stat
+2022-01-02 14:02:00,463  * Debugger is active!
+2022-01-02 14:02:00,480  * Debugger PIN: 304-698-871
+2022-01-02 14:02:00,556  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:11:07,548  * Restarting with stat
+2022-01-02 14:11:08,082  * Debugger is active!
+2022-01-02 14:11:08,082  * Debugger PIN: 304-698-871
+2022-01-02 14:11:08,129  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:11:14,771 User form rendered
+2022-01-02 14:11:14,798 127.0.0.1 - - [02/Jan/2022 14:11:14] "GET / HTTP/1.1" 200 -
+2022-01-02 14:11:14,925 127.0.0.1 - - [02/Jan/2022 14:11:14] "GET /static/css/main.css HTTP/1.1" 200 -
+2022-01-02 14:11:14,932 127.0.0.1 - - [02/Jan/2022 14:11:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-01-02 14:11:15,047 127.0.0.1 - - [02/Jan/2022 14:11:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-02 14:13:54,915 Got user input
+2022-01-02 14:13:54,920 user inputs are gender 0 , age 23 , PReviously insuranced or not 1 , vehicle age 0 , is vehicle damage ? 1 , annual premium 32543 , Vintage 32
+2022-01-02 14:13:54,920 sending user input into model
+2022-01-02 14:13:54,920 choosen algorithm is decision tree
+2022-01-02 14:13:56,020 Person is not interested in Vehicle insurance
+2022-01-02 14:13:56,020 Something went wrong inside
+2022-01-02 14:13:56,024 127.0.0.1 - - [02/Jan/2022 14:13:56] "POST /predict HTTP/1.1" 200 -
+2022-01-02 14:14:06,163  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-02 14:14:06,194  * Restarting with stat
+2022-01-02 14:14:06,824  * Debugger is active!
+2022-01-02 14:14:06,837  * Debugger PIN: 304-698-871
+2022-01-02 14:14:06,886  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:14:07,119  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-02 14:14:07,241  * Restarting with stat
+2022-01-02 14:14:07,934  * Debugger is active!
+2022-01-02 14:14:07,954  * Debugger PIN: 304-698-871
+2022-01-02 14:14:08,001  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:14:10,529  * Restarting with stat
+2022-01-02 14:14:11,106  * Debugger is active!
+2022-01-02 14:14:11,122  * Debugger PIN: 304-698-871
+2022-01-02 14:14:11,153  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:14:16,086 User form rendered
+2022-01-02 14:14:16,104 127.0.0.1 - - [02/Jan/2022 14:14:16] "GET / HTTP/1.1" 200 -
+2022-01-02 14:14:16,125 127.0.0.1 - - [02/Jan/2022 14:14:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-01-02 14:14:16,133 127.0.0.1 - - [02/Jan/2022 14:14:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-01-02 14:14:26,515 Got user input
+2022-01-02 14:14:26,520 user inputs are gender 1 , age 32 , PReviously insuranced or not 0 , vehicle age 0 , is vehicle damage ? 0 , annual premium 32532 , Vintage 32
+2022-01-02 14:14:26,520 sending user input into model
+2022-01-02 14:14:26,521 choosen algorithm is decision tree
+2022-01-02 14:14:27,290 Person is not interested in Vehicle insurance
+2022-01-02 14:14:27,291 Something went wrong inside
+2022-01-02 14:14:27,293 127.0.0.1 - - [02/Jan/2022 14:14:27] "POST /predict HTTP/1.1" 200 -
+2022-01-02 14:14:51,933  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-02 14:14:51,971  * Restarting with stat
+2022-01-02 14:14:52,477  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-02 14:14:52,614  * Restarting with stat
+2022-01-02 14:14:52,713  * Debugger is active!
+2022-01-02 14:14:52,730  * Debugger PIN: 304-698-871
+2022-01-02 14:14:52,786  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:14:53,289  * Debugger is active!
+2022-01-02 14:14:53,301  * Debugger PIN: 304-698-871
+2022-01-02 14:14:53,342  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:14:57,001  * Restarting with stat
+2022-01-02 14:14:57,540  * Debugger is active!
+2022-01-02 14:14:57,556  * Debugger PIN: 304-698-871
+2022-01-02 14:14:57,587  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:15:00,620  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-02 14:15:00,671  * Restarting with stat
+2022-01-02 14:15:00,720  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-02 14:15:00,751  * Restarting with stat
+2022-01-02 14:15:01,496  * Debugger is active!
+2022-01-02 14:15:01,509  * Debugger PIN: 304-698-871
+2022-01-02 14:15:01,539  * Debugger is active!
+2022-01-02 14:15:01,559  * Debugger PIN: 304-698-871
+2022-01-02 14:15:01,563  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:15:01,613  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:15:09,016 User form rendered
+2022-01-02 14:15:09,038 127.0.0.1 - - [02/Jan/2022 14:15:09] "GET / HTTP/1.1" 200 -
+2022-01-02 14:15:09,063 127.0.0.1 - - [02/Jan/2022 14:15:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-01-02 14:15:09,076 127.0.0.1 - - [02/Jan/2022 14:15:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-01-02 14:15:20,191 Got user input
+2022-01-02 14:15:20,194 user inputs are gender 0 , age 324 , PReviously insuranced or not 0 , vehicle age 0 , is vehicle damage ? 1 , annual premium 3253 , Vintage 33
+2022-01-02 14:15:20,195 sending user input into model
+2022-01-02 14:15:20,195 choosen algorithm is logistic regression
+2022-01-02 14:15:20,904 Person is interested in Vehicle insurance
+2022-01-02 14:15:20,904 Something went wrong inside
+2022-01-02 14:15:20,905 127.0.0.1 - - [02/Jan/2022 14:15:20] "POST /predict HTTP/1.1" 200 -
+2022-01-02 14:15:38,179  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-02 14:15:38,211  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-02 14:15:38,262  * Restarting with stat
+2022-01-02 14:15:38,412  * Restarting with stat
+2022-01-02 14:15:39,101  * Debugger is active!
+2022-01-02 14:15:39,116  * Debugger PIN: 304-698-871
+2022-01-02 14:15:39,162  * Debugger is active!
+2022-01-02 14:15:39,177  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:15:39,179  * Debugger PIN: 304-698-871
+2022-01-02 14:15:39,221  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-02 14:15:42,244 User form rendered
+2022-01-02 14:15:42,263 127.0.0.1 - - [02/Jan/2022 14:15:42] "GET / HTTP/1.1" 200 -
+2022-01-02 14:15:42,282 127.0.0.1 - - [02/Jan/2022 14:15:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-01-02 14:15:42,286 127.0.0.1 - - [02/Jan/2022 14:15:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-01-02 14:15:53,784 Got user input
+2022-01-02 14:15:53,786 user inputs are gender 0 , age 32 , PReviously insuranced or not 0 , vehicle age 0 , is vehicle damage ? 0 , annual premium 3534 , Vintage 34
+2022-01-02 14:15:53,787 sending user input into model
+2022-01-02 14:15:53,788 choosen algorithm is logistic regression
+2022-01-02 14:15:54,485 Person is interested in Vehicle insurance
+2022-01-02 14:15:54,488 127.0.0.1 - - [02/Jan/2022 14:15:54] "POST /predict HTTP/1.1" 200 -
+2022-01-02 14:15:54,528 127.0.0.1 - - [02/Jan/2022 14:15:54] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-01-02 14:15:54,533 127.0.0.1 - - [02/Jan/2022 14:15:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-01-07 21:28:37,780  * Restarting with stat
+2022-01-07 21:28:38,473  * Debugger is active!
+2022-01-07 21:28:38,520  * Debugger PIN: 304-698-871
+2022-01-07 21:28:38,617  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-07 21:28:46,491 User form rendered
+2022-01-07 21:28:46,588 127.0.0.1 - - [07/Jan/2022 21:28:46] "GET / HTTP/1.1" 200 -
+2022-01-07 21:28:46,924 127.0.0.1 - - [07/Jan/2022 21:28:46] "GET /static/css/main.css HTTP/1.1" 200 -
+2022-01-07 21:28:46,988 127.0.0.1 - - [07/Jan/2022 21:28:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2022-01-07 21:28:47,552 127.0.0.1 - - [07/Jan/2022 21:28:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-01-07 21:28:59,363 Got user input
+2022-01-07 21:28:59,416 user inputs are gender 0 , age 23 , PReviously insuranced or not 1 , vehicle age 0 , is vehicle damage ? 0 , annual premium 34545 , Vintage 324
+2022-01-07 21:28:59,416 sending user input into model
+2022-01-07 21:28:59,416 choosen algorithm is logistic regression
+2022-01-07 21:29:22,404 Person is interested in Vehicle insurance
+2022-01-07 21:29:22,408 127.0.0.1 - - [07/Jan/2022 21:29:22] "POST /predict HTTP/1.1" 200 -
+2022-01-07 21:29:22,510 127.0.0.1 - - [07/Jan/2022 21:29:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2022-01-07 21:29:22,827 127.0.0.1 - - [07/Jan/2022 21:29:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2022-01-07 21:32:25,876  * Detected change in 'F:\\sarika\\one credit course\\app.py', reloading
+2022-01-07 21:32:26,395  * Restarting with stat
+2022-01-07 21:32:26,958  * Debugger is active!
+2022-01-07 21:32:26,971  * Debugger PIN: 304-698-871
+2022-01-07 21:32:27,015  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
