@@ -20,7 +20,7 @@ def homePage():
 @app.route('/predict',methods=['POST','GET']) # route to show the predictions in a web UI
 @cross_origin()
 def predict():
-    #if request.method == 'POST':
+    if request.method == 'POST':
         try:
             #lg.info("Got user input")
             gender=1 if request.form['Gender']=='male' else 0
@@ -55,8 +55,8 @@ def predict():
             print('The Exception message is: ',e)
             return 'something is wrong'
     # return render_template('results.html')
-    #else:
-        #return render_template('index.html')
+    else:
+        return render_template('index.html')
 
 
 
