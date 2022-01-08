@@ -13,7 +13,7 @@ To run :
  git clone https://github.com/sarikamohan08/ML_cross_sell_prediction.git
 ```
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 
 ```
 ```
