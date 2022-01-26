@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cross-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cross-app
+  template:
+    metadata:
+      labels:
+        app: cross-app
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": linux
+      containers:
+      - name: cross-app
+        image: sarika088/cross
+        env:
+        - name: ALLOW_EMPTY_PASSWORD
+          value: "yes"
+        resources:
+          requests:
+            cpu: 100m
+            memory: 128Mi
+          limits:
+            cpu: 250m
+            memory: 256Mi
+        ports:
+        - containerPort: 5000
+          name: cross1
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cross-app
+spec:
+  type: LoadBalancer 
+  ports:
+  - port: 5000
+    targetPort: 5000
+    nodePort: 30000
+  selector:
+    app: cross-app
+
