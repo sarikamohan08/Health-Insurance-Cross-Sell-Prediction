@@ -35,4 +35,4 @@ output console
 Deployment link :  https://ml-cross-sell-prediction.herokuapp.com/
 
 
-Docker image link : https://hub.docker.com/repository/docker/sarika088/cross
+Docker image link : https://hub.docker.com/repository/docker/sarika088/cross  or  docker pull sarika088/cross
