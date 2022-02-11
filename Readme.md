@@ -1,4 +1,4 @@
-## Assessment Project for one credit course ECONOMETRICS AND MACHINE LEARNING IN FINANCE
+## PROJECT ON ECONOMETRICS AND MACHINE LEARNING IN FINANCE
 
 Dataset: https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction
 
